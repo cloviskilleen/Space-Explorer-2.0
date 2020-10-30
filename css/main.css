@@ -1,0 +1,371 @@
+body {
+    background: #555555;
+}
+
+.space {
+    position: absolute; 
+    left: 0px; 
+    top: 0px;
+    width: 1006px;
+    height: 657px;
+    background: url(../images/locations/space.webp);
+    float: left;
+}
+
+.secretarea {
+    position: absolute; 
+    left: 0px; 
+    top: 0px;
+    width: 1006px;
+    height: 657px;
+    background: url(../images/locations/surface.jpg);
+    float: left;
+}
+
+#coin { 
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    background: url(../images/reward.gif);
+    position: absolute;
+    top: 1;
+    left: 1;
+}
+
+.coins { 
+    float: left;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    background: url(../images/reward.gif);
+}
+
+#collectedCoins { 
+    position: absolute;
+    top: 200px;
+    left: 1006px;
+}
+
+#instructions { 
+    border-style: outset;
+    background: black;
+    color: greenyellow;
+    position: absolute;
+    top: 175px;
+    left: 1125px;
+}
+
+a:link {
+    color: greenyellow;
+    text-decoration: none;
+}
+a:visited {
+    color: greenyellow;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background: black;
+    text-decoration: none;
+}
+
+.key { 
+    border-style: outset;
+    background: black;
+    color: greenyellow;
+    float: Left;
+    margin: 3px;
+    width: 25px;
+    text-align: center;
+}
+.numKey { 
+    border-style: outset;
+    background: black;
+    color: greenyellow;
+    margin: 3px;
+    width: 80px;
+    text-align: center;
+    float: left;
+}
+#PO{
+    border-style: outset;
+    background: black;
+    color: red;
+    float: Left;
+}
+.info {
+    margin-top: 10px;
+}
+
+#coinInfo{
+    border-style: outset;
+    background: black;
+    color: greenyellow;
+}
+
+#shipInfo{
+    border-style: outset;
+    background: black;
+    color: cyan;
+}
+
+#muchAnticipated {
+    border-style: outset;
+    background: black;
+    color: yellow;
+}
+
+
+
+/* Info Bar */
+#sideBar {
+    position: absolute;
+    top: 0px;
+    left: 1006px;
+    width: 360px;
+    height: 657px;
+    background: #555555;
+    color: white;
+}
+
+#message {
+    border-top-style: inset;
+    border-left-style: inset;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    color: white;
+    position: absolute;
+    top: 500px;
+}
+
+#shipName {
+    border-style: outset;
+    color: white;
+    text-align: center;
+    background: black;
+    position: absolute;
+    width: 175px;
+    left: 95px;
+}
+
+#planetName {
+    border-style: outset;
+    color: white;
+    text-align: center;
+    background: black;
+    position: absolute;
+    width: 115px;
+    top: 60px;
+    left: 123px;
+}
+
+/* Stats */
+#stats{
+    position: absolute;
+    top: 23px;
+}
+
+#animals {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icons/polarBear35.png);
+}
+
+#shipAnimals {
+    position: absolute;
+    top: 31px;
+    left: 41px;
+    border-style: outset;
+}
+
+#food {
+    position: absolute;
+    left: 87px;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icons/food.png);
+}
+
+#shipFood {
+    position: absolute;
+    top: 31px;
+    left: 128px;
+    border-style: outset;
+}
+
+#plant {
+    position: absolute;
+    left: 174px;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icons/sunflower.png);
+}
+
+#shipPlant {
+    position: absolute;
+    top: 31px;
+    left: 215px;
+    border-style: outset;
+}
+
+#pop {
+    position: absolute;
+    left: 261px;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icons/people.png);
+}
+
+#shipPop {
+    position: absolute;
+    top: 31px;
+    left: 302px;
+    border-style: outset;
+}
+
+#animalsPlanet {
+    position: absolute;
+    top: 100px;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icons/polarBear35.png);
+}
+
+#shipAnimalsPlanet {
+    position: absolute;
+    top: 131px;
+    left: 41px;
+    border-style: outset;
+}
+
+#foodPlanet {
+    position: absolute;
+    top: 100px;
+    left: 87px;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icons/food.png);
+}
+
+#shipFoodPlanet {
+    position: absolute;
+    top: 131px;
+    left: 128px;
+    border-style: outset;
+}
+
+#plantPlanet {
+    position: absolute;
+    top: 100px;
+    left: 174px;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icons/sunflower.png);
+}
+
+#shipPlantPlanet {
+    position: absolute;
+    top: 131px;
+    left: 215px;
+    border-style: outset;
+}
+
+#popPlanet {
+    position: absolute;
+    top: 100px;
+    left: 261px;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icons/people.png);
+}
+
+#shipPopPlanet {
+    position: absolute;
+    top: 131px;
+    left: 302px;
+    border-style: outset;
+}
+
+/* Ships */
+
+#ship { 
+    position: absolute; 
+    left: 200px; 
+    top: 200px;
+}
+
+.SCOUT {
+    width: 30px;
+    height: 30px;
+    background: url(../images/ships/scout.png);
+}
+
+.ABDUCTOR {
+    width: 35px;
+    height: 30px;
+    background: url(../images/ships/Abductor.png);
+}
+
+.FREIGHTER {
+    width: 35px;
+    height: 30px;
+    background: url(../images/ships/Freighter.png);
+}
+
+.USS_JOEL {
+    width: 40px;
+    height: 40px;
+    background: url(../images/ships/USSJoel.png);
+}
+
+/* Locations */
+#sun {
+    background: url(../images/locations/sun.gif);
+    border-radius: 50%;
+    position: absolute; 
+    left: 460px; 
+    top: 290px;
+    width: 30px;
+    height: 30px;
+}
+
+#velonia {
+    background: url(../images/locations/Velonia.png);
+    border-radius: 50%;
+    position: absolute; 
+    left: 300px; 
+    top: 250px;
+    width: 30px;
+    height: 30px;
+}
+
+#swasili {
+    background: url(../images/locations/Swasili.png);
+    border-radius: 50%;
+    position: absolute; 
+    left: 800px; 
+    top: 125px;
+    width: 30px;
+    height: 30px;
+}
+
+#kronatia {
+    background: url(../images/locations/Kronatia.png);
+    border-radius: 50%;
+    position: absolute; 
+    left: 900px; 
+    top: 567px;
+    width: 30px;
+    height: 30px;
+}
+
+#arnello {
+    background: url(../images/locations/Arnello.png);
+    border-radius: 50%;
+    position: absolute; 
+    left: 340px; 
+    top: 467px;
+    width: 30px;
+    height: 30px;
+}
